@@ -61,15 +61,3 @@ class EventSourcer():
             index -=1
 
 
-sourcer = EventSourcer()
-
-sourcer.add(5)
-sourcer.add(5)
-sourcer.add(5)
-sourcer.add(5)
-sourcer.add(5)
-sourcer.undo()
-sourcer.undo()
-sourcer.undo()
-sourcer.bulk_redo(5)
-print(sourcer.value)
